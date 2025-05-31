@@ -7,12 +7,13 @@ import Hero from './components/hero/Hero'
 import Team from "./components/Team/Team";
 import Product from "./components/product/Product";
 import Footer from "./components/footer/Footer";
+import Navbar from "./components/Navbar/Navbar";
 
 function App() {
 
   return (
     <>
-      {/* <Navbar/> */}
+      <Navbar/>
       <Hero/>
       <Collection/>
       <Boost/>
